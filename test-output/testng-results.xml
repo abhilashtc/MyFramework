@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="2" total="9" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45280" started-at="2018-08-28T13:38:39Z" finished-at="2018-08-28T13:39:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45280" started-at="2018-08-28T13:38:39Z" finished-at="2018-08-28T13:39:24Z">
+      <class name="com.facebook.TestCases.FacebookTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="setUp" is-config="true" duration-ms="409" started-at="2018-08-28T19:08:38Z" finished-at="2018-08-28T19:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="BeforeTest" is-config="true" duration-ms="6314" started-at="2018-08-28T19:08:39Z" finished-at="2018-08-28T19:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="register" is-config="true" duration-ms="3704" started-at="2018-08-28T19:08:45Z" finished-at="2018-08-28T19:08:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.facebook.TestCases.FacebookTest.testOne() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="testOne()[pri:1, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="testOne" duration-ms="22" started-at="2018-08-28T19:08:49Z" finished-at="2018-08-28T19:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="captureStatus" is-config="true" duration-ms="12" started-at="2018-08-28T19:08:49Z" finished-at="2018-08-28T19:08:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOne status=SUCCESS method=FacebookTest.testOne()[pri:1, instance:com.facebook.TestCases.FacebookTest@4883b407] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="register" is-config="true" duration-ms="1611" started-at="2018-08-28T19:08:49Z" finished-at="2018-08-28T19:08:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.facebook.TestCases.FacebookTest.testTwo() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="testTwo()[pri:5, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="testTwo" duration-ms="12" started-at="2018-08-28T19:08:50Z" finished-at="2018-08-28T19:08:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="captureStatus" is-config="true" duration-ms="1" started-at="2018-08-28T19:08:50Z" finished-at="2018-08-28T19:08:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTwo status=SUCCESS method=FacebookTest.testTwo()[pri:5, instance:com.facebook.TestCases.FacebookTest@4883b407] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="register" is-config="true" duration-ms="1701" started-at="2018-08-28T19:08:50Z" finished-at="2018-08-28T19:08:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.facebook.TestCases.FacebookTest.testThree()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="SKIP" signature="testThree()[pri:10, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="testThree" duration-ms="60" started-at="2018-08-28T19:08:52Z" finished-at="2018-08-28T19:08:52Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.facebook.TestCases.FacebookTest.testThree(FacebookTest.java:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="captureStatus" is-config="true" duration-ms="182" started-at="2018-08-28T19:08:52Z" finished-at="2018-08-28T19:08:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testThree status=SKIP method=FacebookTest.testThree()[pri:10, instance:com.facebook.TestCases.FacebookTest@4883b407] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="register" is-config="true" duration-ms="1639" started-at="2018-08-28T19:08:53Z" finished-at="2018-08-28T19:08:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.facebook.TestCases.FacebookTest.testThree()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="FAIL" signature="testThree()[pri:10, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="testThree" duration-ms="55" started-at="2018-08-28T19:08:54Z" finished-at="2018-08-28T19:08:54Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.facebook.TestCases.FacebookTest.testThree(FacebookTest.java:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="captureStatus" is-config="true" duration-ms="2023" started-at="2018-08-28T19:08:54Z" finished-at="2018-08-28T19:08:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testThree status=FAILURE method=FacebookTest.testThree()[pri:10, instance:com.facebook.TestCases.FacebookTest@4883b407] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="register" is-config="true" duration-ms="1546" started-at="2018-08-28T19:08:56Z" finished-at="2018-08-28T19:08:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.facebook.TestCases.FacebookTest.testFour()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="testFour()[pri:15, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="testFour" duration-ms="9" started-at="2018-08-28T19:08:58Z" finished-at="2018-08-28T19:08:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFour -->
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="captureStatus" is-config="true" duration-ms="1" started-at="2018-08-28T19:08:58Z" finished-at="2018-08-28T19:08:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFour status=SUCCESS method=FacebookTest.testFour()[pri:15, instance:com.facebook.TestCases.FacebookTest@4883b407] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="register" is-config="true" duration-ms="1610" started-at="2018-08-28T19:08:58Z" finished-at="2018-08-28T19:09:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.facebook.TestCases.FacebookTest.testFive() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="SKIP" signature="testFive()[pri:20, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="testFive" duration-ms="5370" started-at="2018-08-28T19:09:00Z" finished-at="2018-08-28T19:09:05Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.facebook.TestCases.FacebookTest.testFive(FacebookTest.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFive -->
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="captureStatus" is-config="true" duration-ms="370" started-at="2018-08-28T19:09:05Z" finished-at="2018-08-28T19:09:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFive status=SKIP method=FacebookTest.testFive()[pri:20, instance:com.facebook.TestCases.FacebookTest@4883b407] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="register" is-config="true" duration-ms="1914" started-at="2018-08-28T19:09:06Z" finished-at="2018-08-28T19:09:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.facebook.TestCases.FacebookTest.testFive() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="FAIL" signature="testFive()[pri:20, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="testFive" duration-ms="11667" started-at="2018-08-28T19:09:08Z" finished-at="2018-08-28T19:09:19Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.facebook.TestCases.FacebookTest.testFive(FacebookTest.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFive -->
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="captureStatus" is-config="true" duration-ms="371" started-at="2018-08-28T19:09:19Z" finished-at="2018-08-28T19:09:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFive status=FAILURE method=FacebookTest.testFive()[pri:20, instance:com.facebook.TestCases.FacebookTest@4883b407] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="register" is-config="true" duration-ms="1878" started-at="2018-08-28T19:09:20Z" finished-at="2018-08-28T19:09:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.facebook.TestCases.FacebookTest.testSix()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="testSix()[pri:25, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="testSix" duration-ms="10" started-at="2018-08-28T19:09:21Z" finished-at="2018-08-28T19:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSix -->
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="captureStatus" is-config="true" duration-ms="2" started-at="2018-08-28T19:09:21Z" finished-at="2018-08-28T19:09:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSix status=SUCCESS method=FacebookTest.testSix()[pri:25, instance:com.facebook.TestCases.FacebookTest@4883b407] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="register" is-config="true" duration-ms="1669" started-at="2018-08-28T19:09:21Z" finished-at="2018-08-28T19:09:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.facebook.TestCases.FacebookTest.testSeven()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="testSeven()[pri:30, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="testSeven" duration-ms="11" started-at="2018-08-28T19:09:23Z" finished-at="2018-08-28T19:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSeven -->
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="captureStatus" is-config="true" duration-ms="1" started-at="2018-08-28T19:09:23Z" finished-at="2018-08-28T19:09:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSeven status=SUCCESS method=FacebookTest.testSeven()[pri:30, instance:com.facebook.TestCases.FacebookTest@4883b407] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="cleanUp" is-config="true" duration-ms="874" started-at="2018-08-28T19:09:23Z" finished-at="2018-08-28T19:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="afterSuite" is-config="true" duration-ms="1" started-at="2018-08-28T19:09:24Z" finished-at="2018-08-28T19:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.facebook.TestCases.FacebookTest@4883b407]" name="tearDown" is-config="true" duration-ms="6683" started-at="2018-08-28T19:09:24Z" depends-on-methods="com.facebook.TestCases.FacebookTest.afterSuite" finished-at="2018-08-28T19:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.facebook.TestCases.FacebookTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

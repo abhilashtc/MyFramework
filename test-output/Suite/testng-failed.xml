@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <parameter name="browserType" value="Chrome"/>
+  <test name="Firefox">
+    <parameter name="browserType" value="FireFox"/>
+    <classes>
+      <class name="com.facebook.TestCases.FacebookTest"/>
+    </classes>
+  </test> <!-- Firefox -->
+  <test name="Chrome">
+    <parameter name="browserType" value="Chrome"/>
+    <classes>
+      <class name="com.facebook.TestCases.ExtentReportTest"/>
+    </classes>
+  </test> <!-- Chrome -->
+  <test name="Firefox(failed)" parallel="methods">
+    <parameter name="browserType" value="FireFox"/>
+    <classes>
+      <class name="com.facebook.TestCases.ExtentReportTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
+          <include name="register"/>
+          <include name="BeforeTest"/>
+          <include name="afterSuite"/>
+          <include name="captureStatus"/>
+        </methods>
+      </class> <!-- com.facebook.TestCases.ExtentReportTest -->
+      <class name="com.facebook.TestCases.FacebookTest">
+        <methods>
+          <include name="captureStatus"/>
+          <include name="register"/>
+          <include name="BeforeTest"/>
+          <include name="afterSuite"/>
+          <include name="testThree"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- com.facebook.TestCases.FacebookTest -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+  <test name="Chrome(failed)" parallel="methods">
+    <parameter name="browserType" value="Chrome"/>
+    <classes>
+      <class name="com.facebook.TestCases.ExtentReportTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
+          <include name="register"/>
+          <include name="ExtTestThree"/>
+          <include name="BeforeTest"/>
+          <include name="afterSuite"/>
+          <include name="captureStatus"/>
+        </methods>
+      </class> <!-- com.facebook.TestCases.ExtentReportTest -->
+      <class name="com.facebook.TestCases.FacebookTest">
+        <methods>
+          <include name="captureStatus"/>
+          <include name="register"/>
+          <include name="BeforeTest"/>
+          <include name="afterSuite"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- com.facebook.TestCases.FacebookTest -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
