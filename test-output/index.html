@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 2 failed,  2 skipped,  4 passed</span>
+                    <span class="method-stats">9 methods, 2 failed,  2 skipped,  5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -146,6 +146,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.facebook.TestCases.LoginUI_Test" hash-for-method="testOne">testOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.facebook.TestCases.LoginUI_Test" hash-for-method="testSix">testSix</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -252,6 +257,13 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="testSix">
+                  </a> <!-- testSix -->
+                  <span class="method-name">testSix</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="testThree">
                   </a> <!-- testThree -->
                   <span class="method-name">testThree</span>
@@ -338,39 +350,43 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testOne')
 data.setCell(0, 2, 'com.facebook.TestCases.LoginUI_Test')
-data.setCell(0, 3, 3656);
+data.setCell(0, 3, 3566);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testFive')
+data.setCell(1, 1, 'testFour')
 data.setCell(1, 2, 'com.facebook.TestCases.LoginUI_Test')
-data.setCell(1, 3, 553);
+data.setCell(1, 3, 718);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testTwo')
 data.setCell(2, 2, 'com.facebook.TestCases.LoginUI_Test')
-data.setCell(2, 3, 532);
+data.setCell(2, 3, 628);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testThree')
+data.setCell(3, 1, 'testFive')
 data.setCell(3, 2, 'com.facebook.TestCases.LoginUI_Test')
-data.setCell(3, 3, 508);
+data.setCell(3, 3, 543);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testOneTwo')
+data.setCell(4, 1, 'testThree')
 data.setCell(4, 2, 'com.facebook.TestCases.LoginUI_Test')
-data.setCell(4, 3, 481);
+data.setCell(4, 3, 495);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testFour')
+data.setCell(5, 1, 'testOneTwo')
 data.setCell(5, 2, 'com.facebook.TestCases.LoginUI_Test')
-data.setCell(5, 3, 464);
+data.setCell(5, 3, 490);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testOneTwo')
+data.setCell(6, 1, 'testSix')
 data.setCell(6, 2, 'com.facebook.TestCases.LoginUI_Test')
-data.setCell(6, 3, 464);
+data.setCell(6, 3, 466);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testFive')
+data.setCell(7, 1, 'testOneTwo')
 data.setCell(7, 2, 'com.facebook.TestCases.LoginUI_Test')
-data.setCell(7, 3, 454);
+data.setCell(7, 3, 463);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testFive')
+data.setCell(8, 2, 'com.facebook.TestCases.LoginUI_Test')
+data.setCell(8, 3, 426);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -396,7 +412,7 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.facebook.TestCases.LoginUI_Test</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">testSix</span>
+                <span class="ignored-method-name">testSeven</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -415,119 +431,131 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">BeforeTest</span>
-                <span class="method-start">426 ms</span>
+                <span class="method-start">409 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">register(public void com.facebook.TestCases.LoginUI_Test.testOne() throws java.lang.Exception)</span>
-                <span class="method-start">6809 ms</span>
+                <span class="method-start">8150 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testOne</span>
-                <span class="method-start">7730 ms</span>
+                <span class="method-start">8602 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">captureStatus([TestResult name=testOne status=SUCCESS method=LoginUI_Test.testOne()[pri:1, instance:com.facebook.T...)</span>
-                <span class="method-start">11387 ms</span>
+                <span class="method-start">12171 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">register(public void com.facebook.TestCases.LoginUI_Test.testOneTwo() throws java.lang.Exception)</span>
-                <span class="method-start">11395 ms</span>
+                <span class="method-start">12189 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testOneTwo</span>
-                <span class="method-start">11674 ms</span>
+                <span class="method-start">12497 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">captureStatus([TestResult name=testOneTwo status=SKIP method=LoginUI_Test.testOneTwo()[pri:2, instance:com.faceboo...)</span>
-                <span class="method-start">12459 ms</span>
+                <span class="method-start">13264 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">register(public void com.facebook.TestCases.LoginUI_Test.testOneTwo() throws java.lang.Exception)</span>
-                <span class="method-start">12665 ms</span>
+                <span class="method-start">13424 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testOneTwo</span>
-                <span class="method-start">12979 ms</span>
+                <span class="method-start">13748 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">captureStatus([TestResult name=testOneTwo status=FAILURE method=LoginUI_Test.testOneTwo()[pri:2, instance:com.face...)</span>
-                <span class="method-start">13446 ms</span>
+                <span class="method-start">14240 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">register(public void com.facebook.TestCases.LoginUI_Test.testTwo() throws java.lang.Exception)</span>
-                <span class="method-start">13576 ms</span>
+                <span class="method-start">14362 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testTwo</span>
-                <span class="method-start">13965 ms</span>
+                <span class="method-start">14674 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">captureStatus([TestResult name=testTwo status=SUCCESS method=LoginUI_Test.testTwo()[pri:5, instance:com.facebook.T...)</span>
-                <span class="method-start">14500 ms</span>
+                <span class="method-start">15304 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">register(public void com.facebook.TestCases.LoginUI_Test.testThree())</span>
-                <span class="method-start">14502 ms</span>
+                <span class="method-start">15305 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testThree</span>
-                <span class="method-start">14836 ms</span>
+                <span class="method-start">15800 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">captureStatus([TestResult name=testThree status=SUCCESS method=LoginUI_Test.testThree()[pri:10, instance:com.faceb...)</span>
-                <span class="method-start">15347 ms</span>
+                <span class="method-start">16296 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">register(public void com.facebook.TestCases.LoginUI_Test.testFour())</span>
+                <span class="method-start">16300 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFour</span>
+                <span class="method-start">16620 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureStatus([TestResult name=testFour status=SUCCESS method=LoginUI_Test.testFour()[pri:15, instance:com.faceboo...)</span>
+                <span class="method-start">17339 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">register(public void com.facebook.TestCases.LoginUI_Test.testFive())</span>
-                <span class="method-start">15348 ms</span>
+                <span class="method-start">17341 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testFive</span>
-                <span class="method-start">15642 ms</span>
+                <span class="method-start">17758 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">captureStatus([TestResult name=testFive status=SKIP method=LoginUI_Test.testFive()[pri:15, instance:com.facebook.T...)</span>
-                <span class="method-start">16498 ms</span>
+                <span class="method-name">captureStatus([TestResult name=testFive status=SKIP method=LoginUI_Test.testFive()[pri:16, instance:com.facebook.T...)</span>
+                <span class="method-start">18486 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">register(public void com.facebook.TestCases.LoginUI_Test.testFive())</span>
-                <span class="method-start">16942 ms</span>
+                <span class="method-start">18935 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testFive</span>
-                <span class="method-start">17251 ms</span>
+                <span class="method-start">19234 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">captureStatus([TestResult name=testFive status=FAILURE method=LoginUI_Test.testFive()[pri:15, instance:com.faceboo...)</span>
-                <span class="method-start">17707 ms</span>
+                <span class="method-name">captureStatus([TestResult name=testFive status=FAILURE method=LoginUI_Test.testFive()[pri:16, instance:com.faceboo...)</span>
+                <span class="method-start">19779 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">register(public void com.facebook.TestCases.LoginUI_Test.testFour())</span>
-                <span class="method-start">19078 ms</span>
+                <span class="method-name">register(public void com.facebook.TestCases.LoginUI_Test.testSix())</span>
+                <span class="method-start">21249 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testFour</span>
-                <span class="method-start">19414 ms</span>
+                <span class="method-name">testSix</span>
+                <span class="method-start">21533 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">captureStatus([TestResult name=testFour status=SUCCESS method=LoginUI_Test.testFour()[pri:15, instance:com.faceboo...)</span>
-                <span class="method-start">19879 ms</span>
+                <span class="method-name">captureStatus([TestResult name=testSix status=SUCCESS method=LoginUI_Test.testSix()[pri:20, instance:com.facebook....)</span>
+                <span class="method-start">22001 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">19884 ms</span>
+                <span class="method-start">22004 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">20653 ms</span>
+                <span class="method-start">22766 ms</span>
               </div> <!-- configuration-suite after -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">20653 ms</span>
+                <span class="method-start">22767 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
