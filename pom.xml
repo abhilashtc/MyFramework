@@ -31,7 +31,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile> -->
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>/LoginUI_Test/LoginUI_Testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

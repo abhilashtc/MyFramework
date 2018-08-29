@@ -238,11 +238,33 @@ public class LoginUI_Test extends TestBase{
 		Assert.assertTrue(false);
 	}
 	
+	@Test(priority=20, enabled=true, retryAnalyzer=com.facebook.listeners.CustomRetryListener.class)
+	public void testSix() {
+		logger.info("Inside testSix");
+		driver.switchTo().frame(0);
+		logger.info("**********Switched to Frame 1");
+		logger.info(driver.getTitle());
+		logger.info(driver.getCurrentUrl());
+		String UI1 = "//a[contains(@name,'a6')]";
+		driver.findElement(By.xpath(UI1)).click();
+		
+		logger.info("**********Clicked on UI 6");
+		driver.switchTo().defaultContent();
+		driver.switchTo().frame(1);
+		String userName = "//input[@name='username']";
+		String password = "//input[@name='pass']";
+		
+		driver.findElement(By.name("username")).sendKeys("Abhi4");
+		driver.findElement(By.name("pass")).sendKeys("Abhilash");
+		lastWebElement = driver.findElement(By.xpath(password));
+		Assert.assertTrue(true);
+	}
+	
 	
 	
 	@Test(priority=25, enabled=false, retryAnalyzer=com.facebook.listeners.CustomRetryListener.class)
-	public void testSix() throws Exception {
-		logger.info("Inside testSix...");
+	public void testSeven() throws Exception {
+		logger.info("Inside testSeven...");
 		driver.switchTo().frame(0);
 		logger.info("**********Switched to Frame 1");
 		logger.info(driver.getTitle());
