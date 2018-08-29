@@ -24,17 +24,18 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugin</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.22.0</version>
-				<configuration>
-					<suiteXmlFiles>
-						<!-- <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile> -->
-						<suiteXmlFile>/LoginUI_Test/LoginUI_Testng.xml</suiteXmlFile>
-					</suiteXmlFiles>
-				</configuration>
-			</plugin>
+
+ 			 <plugin>
+			    <groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-surefire-plugin</artifactId>
+			    <version>2.12</version>
+			    <configuration>
+			      <suiteXmlFiles>
+			        <suiteXmlFile>LoginUI_Testng.xml</suiteXmlFile>
+			      </suiteXmlFiles>
+			    </configuration>
+			  </plugin>
+			   
 		</plugins>
 	</build>
 	<dependencies>
@@ -45,14 +46,14 @@
 			<artifactId>httpmime</artifactId>
 			<version>4.5.6</version>
 		</dependency>
-<!-- 
-		https://mvnrepository.com/artifact/commons-codec/commons-codec
+
+		<!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
 		<dependency>
 			<groupId>commons-codec</groupId>
 			<artifactId>commons-codec</artifactId>
 			<version>1.11</version>
 		</dependency>
- -->
+
 		<!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
 		<dependency>
 			<groupId>commons-codec</groupId>
