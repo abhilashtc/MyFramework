@@ -240,7 +240,7 @@ public class LoginUI_Test extends TestBase{
 	
 	
 	
-	@Test(priority=20, enabled=false, retryAnalyzer=com.facebook.listeners.CustomRetryListener.class)
+	@Test(priority=25, enabled=false, retryAnalyzer=com.facebook.listeners.CustomRetryListener.class)
 	public void testSix() throws Exception {
 		logger.info("Inside testSix...");
 		driver.switchTo().frame(0);

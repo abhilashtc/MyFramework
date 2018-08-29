@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="2" total="9" passed="5">
+<testng-results skipped="2" failed="2" total="8" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32761" started-at="2018-08-29T15:02:06Z" finished-at="2018-08-29T15:02:39Z">
+  <suite name="Suite" duration-ms="20149" started-at="2018-08-29T15:21:08Z" finished-at="2018-08-29T15:21:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32761" started-at="2018-08-29T15:02:06Z" finished-at="2018-08-29T15:02:39Z">
+    <test name="Test" duration-ms="20149" started-at="2018-08-29T15:21:08Z" finished-at="2018-08-29T15:21:28Z">
       <class name="com.facebook.TestCases.LoginUI_Test">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="setUp" is-config="true" duration-ms="403" started-at="2018-08-29T20:32:06Z" finished-at="2018-08-29T20:32:06Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="setUp" is-config="true" duration-ms="423" started-at="2018-08-29T20:51:07Z" finished-at="2018-08-29T20:51:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="BeforeTest" is-config="true" duration-ms="6353" started-at="2018-08-29T20:32:06Z" finished-at="2018-08-29T20:32:13Z">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="BeforeTest" is-config="true" duration-ms="6373" started-at="2018-08-29T20:51:08Z" finished-at="2018-08-29T20:51:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="register" is-config="true" duration-ms="980" started-at="2018-08-29T20:32:13Z" finished-at="2018-08-29T20:32:14Z">
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="register" is-config="true" duration-ms="921" started-at="2018-08-29T20:51:14Z" finished-at="2018-08-29T20:51:15Z">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method status="PASS" signature="testOne()[pri:1, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="testOne" duration-ms="3669" started-at="2018-08-29T20:32:14Z" finished-at="2018-08-29T20:32:17Z">
+        <test-method status="PASS" signature="testOne()[pri:1, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="testOne" duration-ms="3656" started-at="2018-08-29T20:51:15Z" finished-at="2018-08-29T20:51:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOne -->
-        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="captureStatus" is-config="true" duration-ms="8" started-at="2018-08-29T20:32:17Z" finished-at="2018-08-29T20:32:17Z">
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="captureStatus" is-config="true" duration-ms="8" started-at="2018-08-29T20:51:19Z" finished-at="2018-08-29T20:51:19Z">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureStatus -->
-        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="register" is-config="true" duration-ms="274" started-at="2018-08-29T20:32:17Z" finished-at="2018-08-29T20:32:18Z">
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="register" is-config="true" duration-ms="279" started-at="2018-08-29T20:51:19Z" finished-at="2018-08-29T20:51:19Z">
           <params>
             <param index="0">
               <value>
@@ -52,7 +52,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method status="SKIP" signature="testOneTwo()[pri:2, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="testOneTwo" duration-ms="410" started-at="2018-08-29T20:32:18Z" finished-at="2018-08-29T20:32:18Z">
+        <test-method status="SKIP" signature="testOneTwo()[pri:2, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="testOneTwo" duration-ms="481" started-at="2018-08-29T20:51:19Z" finished-at="2018-08-29T20:51:19Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -94,7 +94,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOneTwo -->
-        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="captureStatus" is-config="true" duration-ms="177" started-at="2018-08-29T20:32:18Z" finished-at="2018-08-29T20:32:18Z">
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="captureStatus" is-config="true" duration-ms="206" started-at="2018-08-29T20:51:20Z" finished-at="2018-08-29T20:51:20Z">
           <params>
             <param index="0">
               <value>
@@ -105,7 +105,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureStatus -->
-        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="register" is-config="true" duration-ms="310" started-at="2018-08-29T20:32:18Z" finished-at="2018-08-29T20:32:19Z">
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="register" is-config="true" duration-ms="314" started-at="2018-08-29T20:51:20Z" finished-at="2018-08-29T20:51:20Z">
           <params>
             <param index="0">
               <value>
@@ -116,7 +116,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method status="FAIL" signature="testOneTwo()[pri:2, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="testOneTwo" duration-ms="488" started-at="2018-08-29T20:32:19Z" finished-at="2018-08-29T20:32:19Z">
+        <test-method status="FAIL" signature="testOneTwo()[pri:2, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="testOneTwo" duration-ms="464" started-at="2018-08-29T20:51:20Z" finished-at="2018-08-29T20:51:21Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -158,7 +158,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOneTwo -->
-        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="captureStatus" is-config="true" duration-ms="200" started-at="2018-08-29T20:32:19Z" finished-at="2018-08-29T20:32:19Z">
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="captureStatus" is-config="true" duration-ms="129" started-at="2018-08-29T20:51:21Z" finished-at="2018-08-29T20:51:21Z">
           <params>
             <param index="0">
               <value>
@@ -169,7 +169,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureStatus -->
-        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="register" is-config="true" duration-ms="360" started-at="2018-08-29T20:32:19Z" finished-at="2018-08-29T20:32:20Z">
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="register" is-config="true" duration-ms="389" started-at="2018-08-29T20:51:21Z" finished-at="2018-08-29T20:51:21Z">
           <params>
             <param index="0">
               <value>
@@ -180,11 +180,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method status="PASS" signature="testTwo()[pri:5, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="testTwo" duration-ms="622" started-at="2018-08-29T20:32:20Z" finished-at="2018-08-29T20:32:20Z">
+        <test-method status="PASS" signature="testTwo()[pri:5, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="testTwo" duration-ms="532" started-at="2018-08-29T20:51:21Z" finished-at="2018-08-29T20:51:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTwo -->
-        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="captureStatus" is-config="true" duration-ms="1" started-at="2018-08-29T20:32:20Z" finished-at="2018-08-29T20:32:20Z">
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="captureStatus" is-config="true" duration-ms="1" started-at="2018-08-29T20:51:22Z" finished-at="2018-08-29T20:51:22Z">
           <params>
             <param index="0">
               <value>
@@ -195,7 +195,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureStatus -->
-        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="register" is-config="true" duration-ms="328" started-at="2018-08-29T20:32:20Z" finished-at="2018-08-29T20:32:21Z">
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="register" is-config="true" duration-ms="334" started-at="2018-08-29T20:51:22Z" finished-at="2018-08-29T20:51:22Z">
           <params>
             <param index="0">
               <value>
@@ -206,11 +206,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method status="PASS" signature="testThree()[pri:10, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="testThree" duration-ms="488" started-at="2018-08-29T20:32:21Z" finished-at="2018-08-29T20:32:21Z">
+        <test-method status="PASS" signature="testThree()[pri:10, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="testThree" duration-ms="508" started-at="2018-08-29T20:51:22Z" finished-at="2018-08-29T20:51:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testThree -->
-        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="captureStatus" is-config="true" duration-ms="1" started-at="2018-08-29T20:32:21Z" finished-at="2018-08-29T20:32:21Z">
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="captureStatus" is-config="true" duration-ms="1" started-at="2018-08-29T20:51:23Z" finished-at="2018-08-29T20:51:23Z">
           <params>
             <param index="0">
               <value>
@@ -221,7 +221,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureStatus -->
-        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="register" is-config="true" duration-ms="328" started-at="2018-08-29T20:32:21Z" finished-at="2018-08-29T20:32:22Z">
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="register" is-config="true" duration-ms="294" started-at="2018-08-29T20:51:23Z" finished-at="2018-08-29T20:51:23Z">
           <params>
             <param index="0">
               <value>
@@ -232,7 +232,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method status="SKIP" signature="testFive()[pri:15, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="testFive" duration-ms="496" started-at="2018-08-29T20:32:22Z" finished-at="2018-08-29T20:32:22Z">
+        <test-method status="SKIP" signature="testFive()[pri:15, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="testFive" duration-ms="553" started-at="2018-08-29T20:51:23Z" finished-at="2018-08-29T20:51:23Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -274,7 +274,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFive -->
-        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="captureStatus" is-config="true" duration-ms="429" started-at="2018-08-29T20:32:22Z" finished-at="2018-08-29T20:32:23Z">
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="captureStatus" is-config="true" duration-ms="443" started-at="2018-08-29T20:51:24Z" finished-at="2018-08-29T20:51:24Z">
           <params>
             <param index="0">
               <value>
@@ -285,7 +285,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureStatus -->
-        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="register" is-config="true" duration-ms="365" started-at="2018-08-29T20:32:23Z" finished-at="2018-08-29T20:32:23Z">
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="register" is-config="true" duration-ms="309" started-at="2018-08-29T20:51:24Z" finished-at="2018-08-29T20:51:24Z">
           <params>
             <param index="0">
               <value>
@@ -296,7 +296,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method status="FAIL" signature="testFive()[pri:15, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="testFive" duration-ms="421" started-at="2018-08-29T20:32:23Z" finished-at="2018-08-29T20:32:24Z">
+        <test-method status="FAIL" signature="testFive()[pri:15, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="testFive" duration-ms="454" started-at="2018-08-29T20:51:24Z" finished-at="2018-08-29T20:51:25Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -338,7 +338,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFive -->
-        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="captureStatus" is-config="true" duration-ms="2144" started-at="2018-08-29T20:32:24Z" finished-at="2018-08-29T20:32:26Z">
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="captureStatus" is-config="true" duration-ms="1370" started-at="2018-08-29T20:51:25Z" finished-at="2018-08-29T20:51:26Z">
           <params>
             <param index="0">
               <value>
@@ -349,7 +349,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureStatus -->
-        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="register" is-config="true" duration-ms="300" started-at="2018-08-29T20:32:26Z" finished-at="2018-08-29T20:32:26Z">
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="register" is-config="true" duration-ms="336" started-at="2018-08-29T20:51:26Z" finished-at="2018-08-29T20:51:27Z">
           <params>
             <param index="0">
               <value>
@@ -360,11 +360,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method status="PASS" signature="testFour()[pri:15, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="testFour" duration-ms="610" started-at="2018-08-29T20:32:26Z" finished-at="2018-08-29T20:32:27Z">
+        <test-method status="PASS" signature="testFour()[pri:15, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="testFour" duration-ms="464" started-at="2018-08-29T20:51:27Z" finished-at="2018-08-29T20:51:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFour -->
-        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="captureStatus" is-config="true" duration-ms="1" started-at="2018-08-29T20:32:27Z" finished-at="2018-08-29T20:32:27Z">
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="captureStatus" is-config="true" duration-ms="1" started-at="2018-08-29T20:51:27Z" finished-at="2018-08-29T20:51:27Z">
           <params>
             <param index="0">
               <value>
@@ -375,45 +375,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureStatus -->
-        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="register" is-config="true" duration-ms="369" started-at="2018-08-29T20:32:27Z" finished-at="2018-08-29T20:32:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.facebook.TestCases.LoginUI_Test.testSix() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- register -->
-        <test-method status="PASS" signature="testSix()[pri:20, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="testSix" duration-ms="11377" started-at="2018-08-29T20:32:27Z" finished-at="2018-08-29T20:32:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSix -->
-        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="captureStatus" is-config="true" duration-ms="3" started-at="2018-08-29T20:32:38Z" finished-at="2018-08-29T20:32:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testSix status=SUCCESS method=LoginUI_Test.testSix()[pri:20, instance:com.facebook.TestCases.LoginUI_Test@4883b407] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureStatus -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="cleanUp" is-config="true" duration-ms="610" started-at="2018-08-29T20:32:38Z" finished-at="2018-08-29T20:32:39Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="cleanUp" is-config="true" duration-ms="688" started-at="2018-08-29T20:51:27Z" finished-at="2018-08-29T20:51:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="tearDown" is-config="true" duration-ms="17052" started-at="2018-08-29T20:32:39Z" depends-on-methods="com.facebook.TestCases.LoginUI_Test.afterSuite" finished-at="2018-08-29T20:32:56Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="tearDown" is-config="true" duration-ms="6041" started-at="2018-08-29T20:51:28Z" depends-on-methods="com.facebook.TestCases.LoginUI_Test.afterSuite" finished-at="2018-08-29T20:51:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-08-29T20:32:39Z" finished-at="2018-08-29T20:32:39Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.facebook.TestCases.LoginUI_Test@4883b407]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-08-29T20:51:28Z" finished-at="2018-08-29T20:51:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.facebook.TestCases.LoginUI_Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
