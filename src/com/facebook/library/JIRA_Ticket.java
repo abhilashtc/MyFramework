@@ -92,7 +92,6 @@ public class JIRA_Ticket {
 			}
 			ctr++;
 		}
-		addJiraTicketDetailsToFile(ticket);
 		return ticket;
 	}
 
