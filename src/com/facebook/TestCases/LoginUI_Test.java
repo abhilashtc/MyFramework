@@ -38,7 +38,7 @@ import com.facebook.listeners.CustomRetryListener;
 public class LoginUI_Test extends TestBase{
 	
 	public static String reportName;
-	public String homePage = "http://192.168.2.104:8080/UI_Proj/src/HomePage/MainFrame.html";
+	public String homePage = "http://Asus-India:8080/UI_Proj/src/HomePage/MainFrame.html";
 //	public String homePage = "http://192.168.2.104:8080/UI_Proj/src/HomePage/Menu.html";
 
 	/*@BeforeTest
