@@ -10700,4 +10700,307 @@
  2018-08-31 00:00:55,724  INFO [main] LogDemo:194 - Quiting WebDriver!!!
  2018-08-31 00:00:57,712 DEBUG [main] LogDemo:197 - Test execution completed !!!
  2018-08-31 00:00:57,712  INFO [main] LogDemo:198 - Exiting @tearDown in TestBase.java
+ 2018-08-31 02:31:10,673  INFO [main] LogDemo:76 - Log4J Configured successfully
+ 2018-08-31 02:31:10,978  INFO [main] LogDemo:99 - Inside @BeforeSuite in TestBase.java
+ 2018-08-31 02:31:10,979  INFO [main] LogDemo:101 - >>> START >>> TestBase.java  ~~~ @BeforeSuite setUP()
+ 2018-08-31 02:31:10,980  INFO [main] LogDemo:135 - Browser ->FireFox
+ 2018-08-31 02:31:10,980  INFO [main] LogDemo:136 - URL ->http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:31:10,987  INFO [main] LogDemo:141 - Exiting @BeforeSuite in TestBase.java
+ 2018-08-31 02:31:10,990  INFO [main] LogDemo:54 - Inside @BeforeTest in ExtentReportTest.java
+ 2018-08-31 02:31:10,994  INFO [main] LogDemo:55 - Browser Type is FireFox
+ 2018-08-31 02:31:18,664 DEBUG [main] LogDemo:59 - FireFox Launched !!!
+ 2018-08-31 02:31:18,694  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:31:19,852  INFO [main] LogDemo:106 - Inside testOne
+ 2018-08-31 02:31:23,551  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:31:23,895  INFO [main] LogDemo:129 - Inside testOneTwo
+ 2018-08-31 02:31:24,350  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:31:24,695  INFO [main] LogDemo:153 - Inside testTwo
+ 2018-08-31 02:31:25,246  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:31:25,682  INFO [main] LogDemo:177 - Inside testThree
+ 2018-08-31 02:31:25,709  INFO [main] LogDemo:179 - **********Switched to Frame 1
+ 2018-08-31 02:31:25,717  INFO [main] LogDemo:180 - (Abhi)Login Screens...
+ 2018-08-31 02:31:25,726  INFO [main] LogDemo:181 - http://asus-india:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:31:25,965  INFO [main] LogDemo:185 - **********Clicked on UI 3
+ 2018-08-31 02:31:26,076  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:31:26,346  INFO [main] LogDemo:201 - Inside testFour
+ 2018-08-31 02:31:26,359  INFO [main] LogDemo:203 - **********Switched to Frame 1
+ 2018-08-31 02:31:26,365  INFO [main] LogDemo:204 - (Abhi)Login Screens...
+ 2018-08-31 02:31:26,372  INFO [main] LogDemo:205 - http://asus-india:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:31:26,608  INFO [main] LogDemo:209 - **********Clicked on UI 4
+ 2018-08-31 02:31:26,759  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:31:27,117  INFO [main] LogDemo:224 - Inside testFive
+ 2018-08-31 02:31:27,130  INFO [main] LogDemo:226 - **********Switched to Frame 1
+ 2018-08-31 02:31:27,137  INFO [main] LogDemo:227 - (Abhi)Login Screens...
+ 2018-08-31 02:31:27,141  INFO [main] LogDemo:228 - http://asus-india:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:31:27,368  INFO [main] LogDemo:232 - **********Clicked on UI 4
+ 2018-08-31 02:31:27,958  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:31:28,445  INFO [main] LogDemo:224 - Inside testFive
+ 2018-08-31 02:31:28,460  INFO [main] LogDemo:226 - **********Switched to Frame 1
+ 2018-08-31 02:31:28,466  INFO [main] LogDemo:227 - (Abhi)Login Screens...
+ 2018-08-31 02:31:28,473  INFO [main] LogDemo:228 - http://asus-india:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:31:28,710  INFO [main] LogDemo:232 - **********Clicked on UI 4
+ 2018-08-31 02:31:30,829  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:31:31,133  INFO [main] LogDemo:247 - Inside testSix
+ 2018-08-31 02:31:31,173  INFO [main] LogDemo:249 - **********Switched to Frame 1
+ 2018-08-31 02:31:31,179  INFO [main] LogDemo:250 - (Abhi)Login Screens...
+ 2018-08-31 02:31:31,185  INFO [main] LogDemo:251 - http://asus-india:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:31:31,510  INFO [main] LogDemo:255 - **********Clicked on UI 6
+ 2018-08-31 02:31:31,735 DEBUG [main] cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:31:31,737 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+ 2018-08-31 02:31:31,742 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+ 2018-08-31 02:31:31,743 DEBUG [main] cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+ 2018-08-31 02:31:32,139 DEBUG [main] cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:31:32,140 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+ 2018-08-31 02:31:32,141 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+ 2018-08-31 02:31:32,141 DEBUG [main] cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+ 2018-08-31 02:31:32,146 DEBUG [main] cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:31:32,148 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+ 2018-08-31 02:31:32,149 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+ 2018-08-31 02:31:32,150 DEBUG [main] cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+ 2018-08-31 02:31:32,161 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:31:32,161 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+ 2018-08-31 02:31:32,162 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+ 2018-08-31 02:31:32,163 DEBUG [main] cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+ 2018-08-31 02:31:32,174 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:31:32,175 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+ 2018-08-31 02:31:32,176 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+ 2018-08-31 02:31:32,176 DEBUG [main] cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+ 2018-08-31 02:31:32,201 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:31:32,202 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+ 2018-08-31 02:31:32,203 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+ 2018-08-31 02:31:32,204 DEBUG [main] cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+ 2018-08-31 02:31:32,233 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2018-08-31 02:31:32,236 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2018-08-31 02:31:32,238 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2018-08-31 02:31:32,241 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2018-08-31 02:31:32,243 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2018-08-31 02:31:32,255 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2018-08-31 02:31:32,259 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2018-08-31 02:31:32,273 DEBUG [main] cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:31:32,274 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+ 2018-08-31 02:31:32,275 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+ 2018-08-31 02:31:32,277 DEBUG [main] cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+ 2018-08-31 02:31:32,285 DEBUG [main] cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:31:32,286 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+ 2018-08-31 02:31:32,286 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+ 2018-08-31 02:31:32,287 DEBUG [main] cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+ 2018-08-31 02:31:32,298 DEBUG [main] cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:31:32,299 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+ 2018-08-31 02:31:32,302 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+ 2018-08-31 02:31:32,314 DEBUG [main] cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+ 2018-08-31 02:31:32,321 DEBUG [main] cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:31:32,322 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+ 2018-08-31 02:31:32,323 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+ 2018-08-31 02:31:32,410 DEBUG [main] cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+ 2018-08-31 02:31:32,426 DEBUG [main] cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:31:32,430 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+ 2018-08-31 02:31:32,431 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+ 2018-08-31 02:31:32,431 DEBUG [main] cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+ 2018-08-31 02:31:32,634  INFO [main] LogDemo:183 - Inside @tearDown in TestBase.java
+ 2018-08-31 02:31:38,140  INFO [main] LogDemo:191 - Test Results has been emailed to the intended recipients...
+ 2018-08-31 02:31:38,141  INFO [main] LogDemo:194 - Quiting WebDriver!!!
+ 2018-08-31 02:31:41,294 DEBUG [main] LogDemo:197 - Test execution completed !!!
+ 2018-08-31 02:31:41,295  INFO [main] LogDemo:198 - Exiting @tearDown in TestBase.java
+ 2018-08-31 02:38:21,269  INFO [main] LogDemo:76 - Log4J Configured successfully
+ 2018-08-31 02:38:21,531  INFO [main] LogDemo:99 - Inside @BeforeSuite in TestBase.java
+ 2018-08-31 02:38:21,531  INFO [main] LogDemo:101 - >>> START >>> TestBase.java  ~~~ @BeforeSuite setUP()
+ 2018-08-31 02:38:21,533  INFO [main] LogDemo:135 - Browser ->FireFox
+ 2018-08-31 02:38:21,533  INFO [main] LogDemo:136 - URL ->http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:38:21,542  INFO [main] LogDemo:141 - Exiting @BeforeSuite in TestBase.java
+ 2018-08-31 02:38:21,546  INFO [main] LogDemo:54 - Inside @BeforeTest in ExtentReportTest.java
+ 2018-08-31 02:38:21,551  INFO [main] LogDemo:55 - Browser Type is FireFox
+ 2018-08-31 02:38:29,339 DEBUG [main] LogDemo:59 - FireFox Launched !!!
+ 2018-08-31 02:38:29,364  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:38:30,704  INFO [main] LogDemo:106 - Inside testOne
+ 2018-08-31 02:38:34,415  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:38:34,720  INFO [main] LogDemo:129 - Inside testOneTwo
+ 2018-08-31 02:38:35,197  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:38:35,497  INFO [main] LogDemo:153 - Inside testTwo
+ 2018-08-31 02:38:35,895  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:38:36,277  INFO [main] LogDemo:177 - Inside testThree
+ 2018-08-31 02:38:36,299  INFO [main] LogDemo:179 - **********Switched to Frame 1
+ 2018-08-31 02:38:36,308  INFO [main] LogDemo:180 - (Abhi)Login Screens...
+ 2018-08-31 02:38:36,312  INFO [main] LogDemo:181 - http://asus-india:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:38:36,562  INFO [main] LogDemo:185 - **********Clicked on UI 3
+ 2018-08-31 02:38:36,705  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:38:37,016  INFO [main] LogDemo:201 - Inside testFour
+ 2018-08-31 02:38:37,032  INFO [main] LogDemo:203 - **********Switched to Frame 1
+ 2018-08-31 02:38:37,040  INFO [main] LogDemo:204 - (Abhi)Login Screens...
+ 2018-08-31 02:38:37,045  INFO [main] LogDemo:205 - http://asus-india:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:38:37,282  INFO [main] LogDemo:209 - **********Clicked on UI 4
+ 2018-08-31 02:38:37,441  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:38:37,787  INFO [main] LogDemo:224 - Inside testFive
+ 2018-08-31 02:38:37,796  INFO [main] LogDemo:226 - **********Switched to Frame 1
+ 2018-08-31 02:38:37,801  INFO [main] LogDemo:227 - (Abhi)Login Screens...
+ 2018-08-31 02:38:37,809  INFO [main] LogDemo:228 - http://asus-india:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:38:38,047  INFO [main] LogDemo:232 - **********Clicked on UI 4
+ 2018-08-31 02:38:38,605  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:38:38,881  INFO [main] LogDemo:224 - Inside testFive
+ 2018-08-31 02:38:38,905  INFO [main] LogDemo:226 - **********Switched to Frame 1
+ 2018-08-31 02:38:38,916  INFO [main] LogDemo:227 - (Abhi)Login Screens...
+ 2018-08-31 02:38:38,925  INFO [main] LogDemo:228 - http://asus-india:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:38:39,174  INFO [main] LogDemo:232 - **********Clicked on UI 4
+ 2018-08-31 02:38:40,851  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:38:41,240  INFO [main] LogDemo:247 - Inside testSix
+ 2018-08-31 02:38:41,265  INFO [main] LogDemo:249 - **********Switched to Frame 1
+ 2018-08-31 02:38:41,272  INFO [main] LogDemo:250 - (Abhi)Login Screens...
+ 2018-08-31 02:38:41,277  INFO [main] LogDemo:251 - http://asus-india:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:38:41,534  INFO [main] LogDemo:255 - **********Clicked on UI 6
+ 2018-08-31 02:38:41,778 DEBUG [main] cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:38:41,781 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+ 2018-08-31 02:38:41,789 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+ 2018-08-31 02:38:41,790 DEBUG [main] cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+ 2018-08-31 02:38:42,161 DEBUG [main] cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:38:42,162 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+ 2018-08-31 02:38:42,163 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+ 2018-08-31 02:38:42,164 DEBUG [main] cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+ 2018-08-31 02:38:42,171 DEBUG [main] cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:38:42,172 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+ 2018-08-31 02:38:42,173 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+ 2018-08-31 02:38:42,174 DEBUG [main] cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+ 2018-08-31 02:38:42,190 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:38:42,191 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+ 2018-08-31 02:38:42,192 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+ 2018-08-31 02:38:42,192 DEBUG [main] cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+ 2018-08-31 02:38:42,211 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:38:42,212 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+ 2018-08-31 02:38:42,213 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+ 2018-08-31 02:38:42,214 DEBUG [main] cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+ 2018-08-31 02:38:42,247 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:38:42,247 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+ 2018-08-31 02:38:42,248 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+ 2018-08-31 02:38:42,249 DEBUG [main] cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+ 2018-08-31 02:38:42,275 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2018-08-31 02:38:42,277 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2018-08-31 02:38:42,279 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2018-08-31 02:38:42,282 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2018-08-31 02:38:42,286 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2018-08-31 02:38:42,295 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2018-08-31 02:38:42,297 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2018-08-31 02:38:42,328 DEBUG [main] cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:38:42,329 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+ 2018-08-31 02:38:42,330 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+ 2018-08-31 02:38:42,333 DEBUG [main] cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+ 2018-08-31 02:38:42,342 DEBUG [main] cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:38:42,343 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+ 2018-08-31 02:38:42,345 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+ 2018-08-31 02:38:42,346 DEBUG [main] cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+ 2018-08-31 02:38:42,360 DEBUG [main] cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:38:42,361 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+ 2018-08-31 02:38:42,364 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+ 2018-08-31 02:38:42,364 DEBUG [main] cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+ 2018-08-31 02:38:42,370 DEBUG [main] cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:38:42,371 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+ 2018-08-31 02:38:42,397 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+ 2018-08-31 02:38:42,397 DEBUG [main] cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+ 2018-08-31 02:38:42,420 DEBUG [main] cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:38:42,420 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+ 2018-08-31 02:38:42,421 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+ 2018-08-31 02:38:42,422 DEBUG [main] cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+ 2018-08-31 02:38:42,553  INFO [main] LogDemo:183 - Inside @tearDown in TestBase.java
+ 2018-08-31 02:38:46,569  INFO [main] LogDemo:191 - Test Results has been emailed to the intended recipients...
+ 2018-08-31 02:38:46,570  INFO [main] LogDemo:194 - Quiting WebDriver!!!
+ 2018-08-31 02:38:48,781 DEBUG [main] LogDemo:197 - Test execution completed !!!
+ 2018-08-31 02:38:48,781  INFO [main] LogDemo:198 - Exiting @tearDown in TestBase.java
+ 2018-08-31 02:40:57,289  INFO [main] LogDemo:76 - Log4J Configured successfully
+ 2018-08-31 02:40:57,634  INFO [main] LogDemo:99 - Inside @BeforeSuite in TestBase.java
+ 2018-08-31 02:40:57,635  INFO [main] LogDemo:101 - >>> START >>> TestBase.java  ~~~ @BeforeSuite setUP()
+ 2018-08-31 02:40:57,643  INFO [main] LogDemo:135 - Browser ->FireFox
+ 2018-08-31 02:40:57,644  INFO [main] LogDemo:136 - URL ->http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:40:57,654  INFO [main] LogDemo:141 - Exiting @BeforeSuite in TestBase.java
+ 2018-08-31 02:40:57,658  INFO [main] LogDemo:54 - Inside @BeforeTest in ExtentReportTest.java
+ 2018-08-31 02:40:57,659  INFO [main] LogDemo:55 - Browser Type is FireFox
+ 2018-08-31 02:41:06,078 DEBUG [main] LogDemo:59 - FireFox Launched !!!
+ 2018-08-31 02:41:06,095  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:41:07,348  INFO [main] LogDemo:106 - Inside testOne
+ 2018-08-31 02:41:10,985  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:41:11,318  INFO [main] LogDemo:129 - Inside testOneTwo
+ 2018-08-31 02:41:11,803  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:41:12,215  INFO [main] LogDemo:153 - Inside testTwo
+ 2018-08-31 02:41:12,811  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:41:13,192  INFO [main] LogDemo:177 - Inside testThree
+ 2018-08-31 02:41:13,214  INFO [main] LogDemo:179 - **********Switched to Frame 1
+ 2018-08-31 02:41:13,221  INFO [main] LogDemo:180 - (Abhi)Login Screens...
+ 2018-08-31 02:41:13,226  INFO [main] LogDemo:181 - http://asus-india:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:41:13,458  INFO [main] LogDemo:185 - **********Clicked on UI 3
+ 2018-08-31 02:41:13,574  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:41:13,961  INFO [main] LogDemo:201 - Inside testFour
+ 2018-08-31 02:41:13,973  INFO [main] LogDemo:203 - **********Switched to Frame 1
+ 2018-08-31 02:41:13,978  INFO [main] LogDemo:204 - (Abhi)Login Screens...
+ 2018-08-31 02:41:13,984  INFO [main] LogDemo:205 - http://asus-india:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:41:14,230  INFO [main] LogDemo:209 - **********Clicked on UI 4
+ 2018-08-31 02:41:14,369  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:41:14,679  INFO [main] LogDemo:224 - Inside testFive
+ 2018-08-31 02:41:14,692  INFO [main] LogDemo:226 - **********Switched to Frame 1
+ 2018-08-31 02:41:14,695  INFO [main] LogDemo:227 - (Abhi)Login Screens...
+ 2018-08-31 02:41:14,703  INFO [main] LogDemo:228 - http://asus-india:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:41:14,941  INFO [main] LogDemo:232 - **********Clicked on UI 4
+ 2018-08-31 02:41:15,490  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:41:15,861  INFO [main] LogDemo:224 - Inside testFive
+ 2018-08-31 02:41:15,872  INFO [main] LogDemo:226 - **********Switched to Frame 1
+ 2018-08-31 02:41:15,876  INFO [main] LogDemo:227 - (Abhi)Login Screens...
+ 2018-08-31 02:41:15,881  INFO [main] LogDemo:228 - http://asus-india:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:41:16,111  INFO [main] LogDemo:232 - **********Clicked on UI 4
+ 2018-08-31 02:41:17,652  INFO [main] LogDemo:80 - @BeforeMethod URL is http://Asus-India:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:41:17,983  INFO [main] LogDemo:247 - Inside testSix
+ 2018-08-31 02:41:18,014  INFO [main] LogDemo:249 - **********Switched to Frame 1
+ 2018-08-31 02:41:18,020  INFO [main] LogDemo:250 - (Abhi)Login Screens...
+ 2018-08-31 02:41:18,025  INFO [main] LogDemo:251 - http://asus-india:8080/Build_UI/src/HomePage/MainFrame.html
+ 2018-08-31 02:41:18,335  INFO [main] LogDemo:255 - **********Clicked on UI 6
+ 2018-08-31 02:41:18,574 DEBUG [main] cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:41:18,577 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+ 2018-08-31 02:41:18,585 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+ 2018-08-31 02:41:18,586 DEBUG [main] cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+ 2018-08-31 02:41:18,970 DEBUG [main] cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:41:18,971 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+ 2018-08-31 02:41:18,972 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+ 2018-08-31 02:41:18,972 DEBUG [main] cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+ 2018-08-31 02:41:18,976 DEBUG [main] cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:41:18,977 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+ 2018-08-31 02:41:18,978 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+ 2018-08-31 02:41:18,980 DEBUG [main] cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+ 2018-08-31 02:41:18,994 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:41:18,997 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+ 2018-08-31 02:41:18,998 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+ 2018-08-31 02:41:18,999 DEBUG [main] cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+ 2018-08-31 02:41:19,018 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:41:19,018 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+ 2018-08-31 02:41:19,019 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+ 2018-08-31 02:41:19,019 DEBUG [main] cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+ 2018-08-31 02:41:19,050 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:41:19,051 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+ 2018-08-31 02:41:19,052 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+ 2018-08-31 02:41:19,053 DEBUG [main] cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+ 2018-08-31 02:41:19,077 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2018-08-31 02:41:19,078 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2018-08-31 02:41:19,083 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2018-08-31 02:41:19,086 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2018-08-31 02:41:19,088 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2018-08-31 02:41:19,102 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2018-08-31 02:41:19,104 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2018-08-31 02:41:19,107 DEBUG [main] cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:41:19,109 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+ 2018-08-31 02:41:19,110 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+ 2018-08-31 02:41:19,110 DEBUG [main] cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+ 2018-08-31 02:41:19,120 DEBUG [main] cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:41:19,121 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+ 2018-08-31 02:41:19,124 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+ 2018-08-31 02:41:19,124 DEBUG [main] cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+ 2018-08-31 02:41:19,149 DEBUG [main] cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:41:19,151 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+ 2018-08-31 02:41:19,153 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+ 2018-08-31 02:41:19,154 DEBUG [main] cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+ 2018-08-31 02:41:19,172 DEBUG [main] cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:41:19,176 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+ 2018-08-31 02:41:19,177 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+ 2018-08-31 02:41:19,179 DEBUG [main] cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+ 2018-08-31 02:41:19,199 DEBUG [main] cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2018-08-31 02:41:19,200 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+ 2018-08-31 02:41:19,201 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+ 2018-08-31 02:41:19,201 DEBUG [main] cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+ 2018-08-31 02:41:19,325  INFO [main] LogDemo:183 - Inside @tearDown in TestBase.java
+ 2018-08-31 02:41:23,101  INFO [main] LogDemo:191 - Test Results has been emailed to the intended recipients...
+ 2018-08-31 02:41:23,101  INFO [main] LogDemo:194 - Quiting WebDriver!!!
+ 2018-08-31 02:41:25,694 DEBUG [main] LogDemo:197 - Test execution completed !!!
+ 2018-08-31 02:41:25,695  INFO [main] LogDemo:198 - Exiting @tearDown in TestBase.java
  

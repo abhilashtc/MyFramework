@@ -92,7 +92,7 @@ public class JIRA_Ticket {
 			}
 			ctr++;
 		}
-		addJiraTicketDetailsToFile(ticket);
+//		addJiraTicketDetailsToFile(ticket);
 		return ticket;
 	}
 
@@ -101,6 +101,7 @@ public class JIRA_Ticket {
 		String currentDir = System.getProperty("user.dir");
 		String configDir = currentDir + "/TestReport/JiraTickets.txt";
 		System.out.println("Directory is " + currentDir);
+		System.out.println(">>>>>>>>>>>>>>>>>>>> Inside addJiraTicketDetailsToFile " + jiraTicket);
 
 		Path filePath = Paths.get(configDir);
 		if (!Files.exists(filePath)) {
