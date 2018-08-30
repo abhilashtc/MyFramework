@@ -6,21 +6,4 @@
       <class name="com.facebook.TestCases.LoginUI_Test"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test(failed)">
-    <classes>
-      <class name="com.facebook.TestCases.LoginUI_Test">
-        <methods>
-          <include name="tearDown"/>
-          <include name="testOneTwo"/>
-          <include name="cleanUp"/>
-          <include name="register"/>
-          <include name="setUp"/>
-          <include name="captureStatus"/>
-          <include name="BeforeTest"/>
-          <include name="afterSuite"/>
-          <include name="testFive"/>
-        </methods>
-      </class> <!-- com.facebook.TestCases.LoginUI_Test -->
-    </classes>
-  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
