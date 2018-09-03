@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <parameter name="browserType" value="FireFox"/>
+  <test name="Firefox">
+    <parameter name="browserType" value="FireFox"/>
     <classes>
       <class name="com.facebook.TestCases.LoginUI_Test"/>
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- Firefox -->
+  <test name="Chrome">
+    <parameter name="browserType" value="FireFox"/>
+    <classes>
+      <class name="com.facebook.TestCases.LoginUI_Test_Prameters"/>
+    </classes>
+  </test> <!-- Chrome -->
+  <test name="Chrome(failed)" parallel="methods">
+    <parameter name="browserType" value="FireFox"/>
+    <classes>
+      <class name="com.facebook.TestCases.LoginUI_Test_Prameters">
+        <methods>
+          <include name="BeforeTest"/>
+          <include name="setupExtentReports"/>
+          <include name="cleanUp"/>
+          <include name="testOne" invocation-numbers="0"/>
+          <include name="register"/>
+          <include name="captureStatus"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.facebook.TestCases.LoginUI_Test_Prameters -->
+      <class name="com.facebook.TestCases.LoginUI_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="cleanUp"/>
+          <include name="register"/>
+          <include name="setUp"/>
+          <include name="captureStatus"/>
+          <include name="BeforeTest"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.facebook.TestCases.LoginUI_Test -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

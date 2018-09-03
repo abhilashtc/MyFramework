@@ -143,7 +143,7 @@ public class FacebookTest extends TestBase{
 	
 	
 	
-	@Test(priority=20, enabled=true, retryAnalyzer=com.facebook.listeners.CustomRetryListener.class)
+	@Test(priority=20, enabled=false, retryAnalyzer=com.facebook.listeners.CustomRetryListener.class)
 	public void testFive() throws Exception {
 		logger.info("Inside testFive...");
 		logger.info(driver.getTitle());
