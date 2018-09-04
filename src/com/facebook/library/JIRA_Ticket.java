@@ -20,8 +20,15 @@ public class JIRA_Ticket {
 	public static String issueSummary, issueDesc, issuePriority;
 	public static String testCaseName;
 	public static String failedTestScreenCapture;
+	
+	public static void main(String[] args) throws Exception {
+		createJiraIssue("C:FailedTest.jpg");
+	}
 
 	//** This method will create a Jira Ticket and will include the screenshot of the failed test case in the issue description
+//	Install the Plugin for Atlassian REST API Browser  on JIRA to get this working.. 
+//	Check whether the page http://192.168.99.100:32768/rest/api/2/issue/FAC-1 is showing up
+	
 		public static void createJiraIssue(String failedTestScreenShot) throws Exception{
 			failedTestScreenCapture = failedTestScreenShot;
 			//*** Getting Jira Server Details
@@ -50,8 +57,8 @@ public class JIRA_Ticket {
 			
 			System.out.println("~~~~~~~~~~~~~~~~createJiraIssue~~~~~~~~~~~~~~~~~~~");
 			// This JSON string contains all values for the ticket
-//			String input="{\"fields\":{\"project\":{\"key\":\"" + jiraProjectName + "\"},\"summary\":\"Demo Ticket\",\"description\":\"Script was executed at " + scriptStartTime + "\", \"reporter\": {\"name\": \"" + Username + "\"},\"issuetype\":{\"name\":\"Bug\"}}}";
-			
+//			String input="{\"fields\":{\"project\":{\"key\":\"" + jiraProjectName + "\"},\"summary\":\"Demo Ticket\",\"description\":\"Script was executed at " + "Sep 3 " + "\", \"reporter\": {\"name\": \"" + Username + "\"},\"issuetype\":{\"name\":\"Bug\"}}}";
+		
 			String input="{\"fields\":{\"project\":"
 					+ "{\"key\":\"" + jiraProjectName + "\"},\""
 							+ "summary\":\"" + issueSummary + "\", \""
